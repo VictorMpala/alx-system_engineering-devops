@@ -1,8 +1,0 @@
-#!/bin/bash
-
-echo 'commit message'
-read mess
-
-git add .
-git commit -m '$mess'
-git push
